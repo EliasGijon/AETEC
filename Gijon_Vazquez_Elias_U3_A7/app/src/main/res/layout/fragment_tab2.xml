@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controlador.tab2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Formulario"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="42dp"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+
+                    android:text="Favor de Rellenar el Formulario"
+                    android:textColor="@color/black"
+                    android:textSize="36sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lbl_Spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="42dp"
+                    android:layout_marginTop="160dp"
+                    android:text="Elige una Actividad"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@color/TECNM_NEGRO"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/lbl_APaterno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="42dp"
+                    android:layout_marginTop="260dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Apellido Paterno"
+                    android:textColor="@color/TECNM_NEGRO"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/lbl_AMaterno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="42dp"
+                    android:layout_marginTop="360dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Apellido Materno"
+                    android:textColor="@color/TECNM_NEGRO"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/lbl_Nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="42dp"
+                    android:layout_marginTop="460dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Nombre"
+                    android:textColor="@color/TECNM_NEGRO"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/lbl_NumControl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="42dp"
+                    android:layout_marginTop="560dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Numero de Control (Opcional)"
+                    android:textColor="@color/TECNM_NEGRO"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/lbl_Email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="42dp"
+                    android:layout_marginTop="660dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Correo Electronico"
+                    android:textColor="@color/TECNM_NEGRO"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/enviar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="146dp"
+                    android:layout_marginTop="760dp"
+                    android:text="Enviar" />
+
+                <Spinner
+                    android:id="@+id/sp01"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/lbl_Spinner"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="42dp"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@color/TECNM_NEGRO"
+                    ></Spinner>
+
+                <EditText
+                    android:id="@+id/PersonLastNameP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lbl_APaterno"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="42dp"
+                    android:layout_marginBottom="15dp"
+                    android:ems="10"
+                    android:fontFamily="@font/montserrat"
+                    android:hint="Ingresa tu Apellido Paterno"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/PersonLastNameM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lbl_AMaterno"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="42dp"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/montserrat"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Ingresa tu Apellido Materno" />
+
+                <EditText
+                    android:id="@+id/PersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lbl_Nombre"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="42dp"
+                    android:layout_marginBottom="15dp"
+                    android:ems="10"
+                    android:fontFamily="@font/montserrat"
+                    android:hint="Ingresa tus Nombres"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/EmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lbl_Email"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="42dp"
+                    android:layout_marginBottom="15dp"
+                    android:ems="10"
+                    android:fontFamily="@font/montserrat"
+                    android:inputType="textEmailAddress"
+                    android:hint="Ingresa tu Correo Electronico"
+                    android:textColor="@color/TECNM_NEGRO" />
+
+                <EditText
+                    android:id="@+id/TextNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lbl_NumControl"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="42dp"
+                    android:layout_marginBottom="15dp"
+                    android:ems="20"
+                    android:fontFamily="@font/montserrat"
+                    android:hint="Ingresa tu Numero de Control"
+                    android:inputType="number" />
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

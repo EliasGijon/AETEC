@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones" >
+        <item>Seleccione una Opción</item>
+        <item>Basquetból</item>
+        <item>Futbol</item>
+        <item>Ajedrez</item>
+        <item>Banda de Guerra</item>
+        <item>Dibujo</item>
+        <item>Solidworks</item>
+        <item>Circulo de Lectura</item>
+        <item>Autocad</item>
+        <item>Voleibol</item>
+        <item>Juegos de Estrategia</item>
+        <item>Cine</item>
+        <item>Musica</item>
+        <item>Lenguaje de señas</item>
+        <item>Danza folklorica</item>
+        <item>Circulo de Calidad</item>
+        <item>Rondalla</item>
+        <item>Salud y Nutrición</item>
+        <item>Control de Adicciones</item>
+        <item>Día Naranja</item>
+        <item>Acondicionamiento Fisico</item>
+        <item>Teatro</item>
+    </string-array>
+</resources>

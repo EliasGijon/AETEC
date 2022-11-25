@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dias_actividades" >
+        <item>DIAS ACTIVIDADES - ORDEN Array.opciones</item>
+        //Basquetbol
+        <item>\u0020Lunes y Martes</item>
+        //Futbol
+        <item>\u0020Miercoles y Viernes</item>
+        //Ajedrez
+        <item>\u0020Martes</item>
+        //Banda de Guerra
+        <item>\u0020Lunes y Martes</item>
+        //Dibujo
+        <item>\u0020Jueves</item>
+        //Solidwork
+        <item>\u0020Martes, Miercoles</item>
+        //Circulo de Lectura
+        <item>\u0020Lunes, Miercoles y Viernes</item>
+        //Autocad
+        <item>\u0020Lunes, Martes y Jueves</item>
+        //Voleibol
+        <item>\u0020Miercoles y Viernes</item>
+        //Juegos de Estrategia
+        <item>\u0020Viernes</item>
+        //Cine
+        <item>\u0020Martes y Jueves</item>
+        //Musica
+        <item>\u0020</item>
+        //Lenguaje de señas
+        <item>\u0020Lunes, Miercoles y Viernes</item>
+        //Danza folklorica
+        <item>\u0020Miercoles y Viernes</item>
+        //Circulo de calidad
+        <item>\u0020Miercoles</item>
+        //Rondalla
+        <item>\u0020Lunes y Martes</item>
+        //Salud y Nutricion
+        <item>\u0020Lunes, Martes y Jueves</item>
+        //Control de Adicciones
+        <item>\u0020Lunes y Miercoles</item>
+        //Dia Naranja
+        <item>\u0020Jueves</item>
+        //Acondicionamiento Fisico
+        <item>\u0020Martes y Jueves</item>
+        //Teatro
+        <item>\u0020Miercoles y Viernes</item>
+    </string-array>
+</resources>

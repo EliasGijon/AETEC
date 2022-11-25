@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AETEC</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="informacion">informacion</string>
+    <string name="contacto">contacto</string>
+    <string name="q_a">Q/A</string>
+</resources>
