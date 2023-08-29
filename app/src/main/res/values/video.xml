@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="video" >
+        <item>VIDEOS ACTIVIDADES - ORDEN Array.opciones - https://www.youtube.com/watch?v=73G-5vuEqgk</item>
+        //Basquetbol
+        <item>73G-5vuEqgk</item>
+        //Futbol
+        <item>owm9jG2XG3c</item>
+        //Ajedrez
+        <item>ScKMcO6GxuI</item>
+        //Banda de Guerra
+        <item>mRiXd8IRY2o</item>
+        //Dibujo
+        <item>qLr6RIIuO1M</item>
+        //Solidwork
+        <item>WrTpfhWpWnQ</item>
+        //Circulo de Lectura
+        <item>sX3UxmKcfF4</item>
+        //Autocad
+        <item>BB2zK8aSfTU</item>
+        //Voleibol
+        <item>1a5VC-f0rm0</item>
+        //Juegos de Estrategia
+        <item>YCEFWhPNufY</item>
+        //Cine
+        <item>T0VDZPPfVtM</item>
+        //Musica
+        <item>qEjadQIh2iw</item>
+        //Lenguaje de señas
+        <item>HY7Fai5SsTA</item>
+        //Danza folklorica
+        <item>mwxvi1ZUjm4</item>
+        //Circulo de calidad
+        <item>gO1VwVB6eqI</item>
+        //Rondalla
+        <item>LQgz4eTqT4U</item>
+        //Salud y Nutricion
+        <item>7J8zYP9WL6s</item>
+        //Control de Adicciones
+        <item>-wxduO6GVXo</item>
+        //Dia Naranja
+        <item>hcWed-YcpTM</item>
+        //Acondicionamiento Fisico
+        <item>Do2F1_pJTrs</item>
+        //Teatro
+        <item>Ftu_MaeSI3s</item>
+    </string-array>
+</resources>

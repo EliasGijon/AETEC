@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Informacion">
+
+    <ImageView
+        android:id="@+id/tecnm_logo"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/TECNM_NEGRO"
+        android:backgroundTint="#DE000000"
+        android:paddingLeft="15dp"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/tecnm" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/panelxd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/etiqueta_actividad"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="42dp"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+                    android:text="Favor de Rellenar el Formulario"
+                    android:textColor="@color/black"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeMaxTextSize="48sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/texto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:visibility="invisible"
+                    android:layout_below="@id/etiqueta_actividad"/>
+
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

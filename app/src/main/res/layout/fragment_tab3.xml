@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controlador.tab3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/QA"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="42dp"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+
+                    android:text="Preguntas Frecuentes"
+                    android:textColor="@color/black"
+                    android:textSize="36sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/preguntas"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/QA"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="42dp"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="
+                    \n¿Qué “cuenta” como actividad extracurricular? \n
+                    \nTodas la actividades que son del tec que están desligada de las carreras
+                    \n\n¿Qué actividades son mejores?\n
+                    \nTodas son buenas
+                    \n\n¿Cuántas actividades necesito?\n
+                    \nSe necesita 5 puntos de actividades
+                    \n\n¿Qué tan importantes son las clases?\n
+                    \nMucho, ya que es un proceso obligado
+                    \n\n¿Cuándo debo empezar?
+                    \n\nDesde su primer semestre
+                    \n\n¿Que hace la app?
+                    \n\nEs un soporte o ayuda a los estudiantes a la hora de querer ingresar o ver información sobre estas clases.
+                    \nAsu vez cuentan con todo los datos necesarios para su fácil entendimiento y el proceso de las clases extraescolares sea mucho más fácil tanto para los alumnos como el area administrativo
+                    \n\n¿Como puedo obtener mas inforrmacion acerca de las actividades?
+                    \n\nLlenando el formulario el encargado de servicios de actividades extraescolares se contactara contigo y resolvera tus dudads.
+                    \n\n¿Tienen redes sociales?
+                    \n\nSi, nos encuentras como \nActividadesExtraescolaresTecReynosa en facebook o en las redes oficiales del Tecnm campus reynosa y/o Tecnm."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</FrameLayout>

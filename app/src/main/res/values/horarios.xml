@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="horarios_actividades" >
+        <item>HORARIOS ACTIVIDADES - ORDEN Array.opciones</item>
+        //Basquetbol
+        <item>\u002009:00am - 11:00am \n 04:00pm - 06:00pm</item>
+        //Futbol
+        <item>\u002010:00am - 12:00pm \n 06:00pm - 08:00pm</item>
+        //Ajedrez
+        <item>\u002012:00pm - 01:00pm \n 05:00pm - 06:00pm</item>
+        //Banda de Guerra
+        <item>\u002009:00am - 11:00am \n 03:00pm - 05:00pm</item>
+        //Dibujo
+        <item>\u002010:00am - 12:00pm \n 04:00pm - 06:00pm</item>
+        //Solidwork
+        <item>\u002010:00am - 12:00pm \n 06:00pm - 08:00pm</item>
+        //Circulo de Lectura
+        <item>\u002001:00pm - 02:00pm \n 05:00pm - 06:00pm</item>
+        //Autocad
+        <item>\u002009:00am - 11:00am \n 03:00pm - 05:00pm</item>
+        //Voleibol
+        <item>\u002009:00am - 11:00am \n 04:00pm - 06:00pm</item>
+        //Juegos de Estrategia
+        <item>\u002012:00pm - 02:00pm \n 04:00pm - 06:00pm</item>
+        //Cine
+        <item>\u002012:00pm - 02:00pm \n 04:00pm - 06:00pm</item>
+        //Musica
+        <item>\u002012:00pm - 01:00pm \n 05:00pm - 06:00pm</item>
+        //Lenguaje de señas
+        <item>\u002001:00pm - 02:00pm \n 05:00pm - 06:00pm</item>
+        //Danza folklorica
+        <item>\u002001:00pm - 02:00pm \n 05:00pm - 06:00pm</item>
+        //Circulo de calidad
+        <item>\u002009:00am - 11:00am \n 04:00pm - 06:00pm</item>
+        //Rondalla
+        <item>\u002010:00am - 12:00pm \n 06:00pm - 08:00pm</item>
+        //Salud y Nutricion
+        <item>\u002001:00pm - 02:00pm \n 05:00pm - 06:00pm</item>
+        //Control de Adicciones
+        <item>\u002001:00pm - 02:00pm \n 05:00pm-06:00pm</item>
+        //Dia Naranja
+        <item>\u002009:00am - 11:00am \n 04:00pm - 06:00pm</item>
+        //Acondicionamiento Fisico
+        <item>\u002009:00am - 11:00am \n 04:00pm - 06:00pm</item>
+        //Teatro
+        <item>\u002010:00am - 12:00pm \n 06:00pm - 08:00pm</item>
+    </string-array>
+</resources>

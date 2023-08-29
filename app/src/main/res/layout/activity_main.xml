@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/tecnm_logo"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/TECNM_NEGRO"
+        android:backgroundTint="#DE000000"
+        android:paddingLeft="15dp"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/tecnm" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablalayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/TECNM_AZUL"
+        app:tabIndicatorColor="@color/TECNM_GRIS"
+        app:tabTextColor="@color/white">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/informacion" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contacto" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q_a" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.viewpager.widget.ViewPager>
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="descripciones_actividades" >
+        <item>DESCRIPCIONES DE ACTIVIDADES - ORDEN IDENTICO Array.opciones</item>
+        //Basquetbol
+        <item>\u0020Es un deporte de equipo, jugado entre dos conjuntos de cinco jugadores cada uno durante cuatro períodos o cuartos de diez minutos cada uno o doce minutos cada cuarto en la NBA. El objetivo del equipo es anotar puntos introduciendo un balón por la canasta, un aro a 3,05 metros sobre la superficie de la pista de juego del que cuelga una red. La puntuación por cada canasta o cesta es de dos o tres puntos, dependiendo de la posición desde la que se efectúa el tiro a canasta, o de uno, si se trata de un tiro libre por una falta de un jugador contrario.
+            El equipo ganador es el que obtiene el mayor número de puntos.</item>
+        //Futbol
+        <item>\u0020Es un juego que incluye dos contrincantes y un árbitro con la capacidad de imponer justicia imparcial. Cada contrincante está compuesto por un equipo de 11 jugadores en campo de juego cada uno, con la opción de incluir jugadores suplentes en el transcurso del partido de fútbol.
+            El objetivo es hacer rodar un balón esférico con el fin de anotar un punto, cuya anotación es válida al cruzar la línea límite del arco contrario. Cada punto logrado es conocido como gol, por lo tanto el equipo que más goles sume en el transcurso de 90 minutos –tiempo neto de un partido- será el ganador.
+            Cada equipo deberá de incluir en su plantilla un arquero o portero, único jugador capaz de tocar el balón con las manos y con la tarea de impedir que el balón cruce su propio arco; un grupo de defensores; un grupo de volantes y finalmente un grupo de delanteros. Las tácticas de cada plantilla pueden variar en preferencia del director técnico a cargo del equipo de fútbol.</item>
+        //Ajedrez
+        <item>\u0020El ajedrez es un juego de estrategia en el que dos personas se desafían frente a un tablero cuadriculado de 64 casillas y dos grupos de figuras, 16 para cada jugador, unas blancas y otras negras: un rey, una dama, dos alfiles, dos caballos, dos torres y ocho peones.
+            El objetivo del ajedrez es derrocar al rey del oponente y, para ello, cada jugador debe intentar acercarse a la casilla ocupada por esta figura y presionar hasta que quede desprotegida y pueda decir jaque mate. Fin de la partida.
+            El ajedrez es considerado un deporte mental, ya que trasciende al propio juego. Incluso hay quien lo eleva a la categoría de arte y ciencia. Además, es divertido, saludable y puede practicarlo personas de todas las edades. Nunca es tarde para aprender a jugar, sobre todo por los numerosos beneficios que aporta.
+        </item>
+        //Banda de Guerra
+        <item>\u0020Es una disciplina que se practica por medio de cornetas y clarines, se hace acompañar con caseros, la cual está constituida por 12 caseros, 12 cornetas, una corneta y un comandante.
+            El Objetivo es Fomentar y rendir honores a nuestros símbolos patrios de nuestro país, tener conocimiento de toques y marchas reglamentarias.
+            ¿Para que sirve?
+            Para elevar el nivel físico, funcional y moral hacia nuestros símbolos patrios, además de tener un alto nivel competitivo para concursos, desfiles, exhibiciones, inauguraciones de eventos deportivos y homenajes.</item>
+        //Dibujo
+        <item>\u0020El dibujo es el lenguaje universal, ya que sin mediar palabras es posible transmitir ideas de modo gráfico que resulten comprensibles para todos. Hay dibujos que son reconocidos dentro de una cultura, denominados símbolos. Otros ejemplos son los pertenecientes a la señalética, actividad que se encarga de comunicar parámetros de comportamiento en determinada locación por medio del lenguaje gráfico.
+            El dibujo es una forma de expresión gráfica que consiste en plasmar imágenes sobre un espacio plano a través de distintos tipos de instrumentos de dibujo.  Dibujar implica delinear imágenes de forma manual sobre un material de dibujo. El concepto de dibujo refiere tanto al proceso mismo como al producto final.
+        </item>
+        //Solidwork
+        <item>\u0020SOLIDWORKS es un software de diseño CAD 3D (diseño asistido por computadora) para modelar piezas y ensamblajes en 3D y planos en 2D.
+            El software que ofrece un abanico de soluciones para cubrir los aspectos implicados en el proceso de desarrollo del producto. Sus productos ofrecen la posibilidad de crear, diseñar, simular, fabricar, publicar y gestionar los datos del proceso de diseño.</item>
+        //Circulo de Lectura
+        <item>\u0020Es una estructura cooperativa que consiste en la lectura del mismo libro por parte de un pequeño grupo, de manera individual y también conjunta, siguiendo una serie de pasos que aseguren la comprensión y el disfrute.
+            La técnica es comparable a los clubs de lectura adultos, en los que la lectura de un libro permite compartir y comparar puntos de vista sobre pasajes concretos o sobre cualquier aspecto que pueda generar un debate, pero más estructurados. Igual que los clubs de lectura, los círculos de lectura permiten una comprensión profunda y poliédrica de las obras y son una herramienta muy adecuada para contribuir a la formación del espíritu crítico de los niños y niñas. Además, al ser actividades en grupo, limitan la posibilidad de que el alumnado menos aficionado a los libros se pueda descolgar.</item>
+        //Autocad
+        <item>\u0020Diseñe todos los detalles con AutoCAD.
+            En el curso AutoCAD 3D, los participantes cambiarán su concepto de diseño bidimensional introduciéndose en las últimas tendencias del AutoCAD tridimensional, con el diseño mediante el modelado de sólidos, superficies y técnicas de visualización fotorealista para la presentación de proyectos.</item>
+        //Voleibol
+        <item>\u0020 es una disciplina deportiva en la cual dos conjuntos compiten en una cancha que está dividida a la mitad por una red que tiene un ancho de un metro. El objetivo es impulsar el balón por arriba de la red para que caiga sobre la superficie del campo rival, mientras se impide que pase lo mismo en el campo propio.
+            El balón puede ser impulsado con cualquier parte del cuerpo, aunque lo más habitual es que se utilicen las extremidades superiores y las manos. El golpe debe ser limpio, es decir, el balón no puede ser agarrado, detenido o empujado. Otra regla importante del voleibol establece que cada equipo tiene sólo tres toques para enviar el balón al campo del conjunto rival y que un jugador no puede tocar dos veces el balón de forma consecutiva.</item>
+        //Juegos de Estrategia
+        <item>\u0020Juegos de estrategia son aquellos juegos o entretenimientos en los que, el factor de la inteligencia, habilidades técnicas, planificación y despliegue, pueden hacer predominar o impulsar al jugador hacia la victoria del juego.
+            Los jugadores pueden representar el papel de un empresario, un jefe de estado, un general, o cualquier otro personaje, en los que tendrán que desarrollar una serie de estrategias, gestionando los recursos de los que se dispone, para ganar una batalla, conseguir dinero o puntos, determinada posición, etc., y así conseguir</item>
+        //Cine
+        <item>\u0020El cine es un arte y una técnica. Es el arte de narrar historias mediante la proyección de imágenes, de allí que también se lo conozca con el nombre de séptimo arte. Y es la técnica que consiste en proyectar fotogramas, de forma rápida y sucesiva, para crear la ilusión de movimiento.
+            Para la realización del cine es necesaria la concurrencia de muchas otras capacidades a nivel técnico, creativo y financiero, como el montaje, la fotografía, la dirección, el guionismo, la operación de cámaras, el sonido, la producción, etc., para lo cual es necesario todo un equipo de trabajo. Asimismo, pasa por varias etapas: el desarrollo, la preproducción, el rodaje, la posproducción y la distribución.</item>
+        //Musica
+        <item>\u0020Se conoce como música a la combinación ordenada de ritmo, melodía y armonía que resulta agradable a los oídos. Por su carácter inmaterial, la música se considera un arte temporal o del tiempo, al igual que la literatura.
+            En el sentido restrictivo, la música es el arte de coordinar y transmitir efectos sonoros, armoniosos y estéticamente válidos, los cuales son generados a través de la voz o de instrumentos musicales.
+            La música es una manifestación artística y cultural de los pueblos, de manera que adquiere diversas formas, valores estéticos y funciones según su contexto. A la vez, es uno de los medios por el cual un individuo expresa sus sentimientos.</item>
+        //Lenguaje de señas
+        <item>\u0020La Lengua de Señas Mexicana (LSM), es la lengua que utilizan las personas sordas en México. Como toda lengua, posee su propia sintaxis, gramática y léxico.
+            El ser humano en la actualidad no podría entender la vida sin la facultad de acceder a la información que a cada momento se está generando en los todos los ámbitos. La comunicación oral, es la forma más común que permite al ser humano participar en todos los entornos de la sociedad, pero cuando una persona nace o adquiere una discapacidad auditiva, se ve impedida, la posibilidad de alcanzar una verdadera realización social se reduce de manera importante.</item>
+        //Danza folklorica
+        <item>\u0020La danza folklórica, danza folclórica o danza típica, es un tipo de baile social, a menudo practicado en grupos, que forma parte del acervo cultural o tradicional de una sociedad o una cultura. El término proveniente de la voz inglesa folklore: “sabiduría popular”.
+            En otras palabras, se trata de bailes tradicionales, vinculados a la identidad de los pueblos y que suelen recoger parte de su imaginario o sus tradiciones en su vestuario, movimientos o en la época del año en que se realizan.
+            Las danzas folklóricas suelen ser un espectáculo consumido socialmente, de importancia cultural e incluso turística. Involucran cierto nivel de preparación y suelen darse en el marco de fiestas patronales, celebraciones nacionales o algún tipo de jubileo. No deben confundirse con las danzas ceremoniales ni con las étnicas, que generalmente están asociadas a ritos o a sociedades tribales.
+            Comúnmente, estas danzas se inscriben en el folklore y en ocasiones pueden mutar su contenido, dando pie a variantes modernas y a reinterpretaciones de la tradición.</item>
+        //Circulo de calidad
+        <item>\u0020El círculo de calidad práctica o técnica utilizada en la gestión de organizaciones en la que un grupo de trabajo voluntario, se reúne para buscar soluciones a problemas detectados en sus respectivas áreas de desempeño laboral, o para mejorar algún aspecto que caracteriza su puesto de trabajo.
+            Las conclusiones y resultados de estos grupos, son elevadas a las personas con responsabilidad y capacidad de decisión sobre su implantación, quienes las analizan y estudian, decidiendo su aprobación y dotándolas de recursos para llevarlas a cabo. Los grupos se reúnen de forma regular, dentro de su horario de trabajo y son entrenados por personal competente (usualmente designados como facilitadores).</item>
+        //Rondalla
+        <item>\u0020La Rondalla Mexicana. Conjunto musical propio de México conformado exclusivamente por guitarras, requintos y, generalmente, un sólo contrabajo. Puede integrarse por hombres, mujeres o ambos, sin límites de edad siendo, por lo regular, entre 8 y 20 las personas que lo comprenden.
+            Originalmente cuentan con un repertorio romántico, aunque en la actualidad interpretan todo tipo de melodías y ritmos. Su repertorio se basa en interpretaciones de temas de otros artistas o grupos, no obstante, algunos grupos también cuentan con composiciones propias. Son grupos que usan la polifonía como recurso, dada la cantidad de sus integrantes.
+            Su vestimenta, completamente formal, comprende principalmente el smooking para los hombres y el traje sastre o vestido para las mujeres, sin embargo, recientemente se han dado variantes novedosas.</item>
+        //Salud y Nutricion
+        <item>\u0020Una nutrición saludable es fundamental para la prevención de factores de riesgo relacionados con la dieta, como el sobrepeso y la obesidad, y las enfermedades no transmisibles asociadas. El consumo de alimentos y bebidas con alto contenido de nutrientes críticos (sal / sodio, azúcar, grasas saturadas y grasas trans) se ha asociado con un mayor riesgo de factores de riesgo relacionados con la dieta y enfermedades no transmisibles asociadas, así como emaciación, retraso de crecimiento y enfermedades por deficiencia.
+            La evidencia también ha demostrado la importancia de la práctica adecuada de la lactancia materna y la alimentación complementaria y los sistemas alimentarios saludables sostenibles. Mediante políticas, legislación y estrategias sobre nutrición saludable, se puede prevenir la malnutrición en todas sus formas.</item>
+        //Control de Adicciones
+        <item>\u0020Se conoce como adicción a las drogas, o drogadicción, al consumo frecuente de estupefacientes, a pesar de saber las consecuencias negativas que producen. Entre otras cosas, modifican el funcionamiento del cerebro y su estructura, provocando conductas peligrosas.
+            Se considera adicción, porque es difícil intentar dejar de consumirlas, ya que provocan alteraciones cerebrales en los mecanismos reguladores de la toma de decisiones y del control inhibitorio y porque el usuario de las mismas dedica gran parte de su tiempo en la búsqueda y consumo de ellas.</item>
+        //Dia Naranja
+        <item>\u0020El Día Naranja busca movilizar a la opinión pública y a los gobiernos para emprender acciones concretas con el fin de promover y fomentar la cultura de la no violencia.
+            La elección del naranja responde a que éste es un color que representa el futuro brillante y optimista libre de violencia contra las mujeres y niñas.</item>
+        //Acondicionamiento Fisico
+        <item>\u0020El acondicionamiento físico es el desarrollo de capacidades condicionales y coordinativas para mejorar el rendimiento físico a través del ejercicio.
+            El acondicionamiento físico es importante, ya que aumenta las capacidades físicas del individuo ayudando a mantener un cuerpo saludable y más fuerte.</item>
+        //Teatro
+        <item>\u0020El teatro es una de las actividades culturales y artísticas más antiguas que conoce la humanidad. Es una de las artes escénicas, es decir, aquellas que tienen lugar sobre un escenario, y consiste en la recreación de una o varias historias de distinta índole mediante actores, discursos, música y escenografía.
+            El teatro ha sido cultivado a lo largo de la historia con muy distintos fines, pero siempre comprendido como una herramienta para comunicar ideas masivamente. De hecho, los antiguos griegos lo empleaban como un instrumento de educación religiosa y ciudadana, poniendo en escena sus mitos y sus célebres tragedias.</item>
+    </string-array>
+</resources>

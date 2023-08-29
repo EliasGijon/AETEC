@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="img">
+        <item>@drawable/basquetbol</item>
+        <item>@drawable/futbol</item>
+        <item>@drawable/ajedrez</item>
+        <item>@drawable/banda_de_guerra</item>
+        <item>@drawable/dibujo</item>
+        <item>@drawable/solid</item>
+        <item>@drawable/circulo_de_lectura</item>
+        <item>@drawable/autocad</item>
+        <item>@drawable/voleibol</item>
+        <item>@drawable/juegos_estrategia</item>
+        <item>@drawable/cine</item>
+        <item>@drawable/musica</item>
+        <item>@drawable/lenguaje_smex</item>
+        <item>@drawable/danza_folklorica</item>
+        <item>@drawable/circulo_calidad</item>
+        <item>@drawable/rondalla</item>
+        <item>@drawable/salud_y_nutricion</item>
+        <item>@drawable/control_de_adiccion</item>
+        <item>@drawable/dia_naranja</item>
+        <item>@drawable/acondicionamiento_fisico</item>
+        <item>@drawable/teatro</item>
+    </integer-array>
+</resources>
