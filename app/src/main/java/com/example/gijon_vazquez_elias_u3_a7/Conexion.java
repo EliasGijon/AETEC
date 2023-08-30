@@ -5,9 +5,14 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexion {
-    private static String url =  "jdbc:sqlserver://zc.database.windows.net:1433;databaseName=tienda_virtual";
-    private static String driverName = "com.microsoft.sqlserver.jdbc.SQLServerDriver";//com.microsoft.sqlserver.jdbc.SQLServerDriver
-    //com.mysql.jdbc.Driver
+    private static String url =  "jdbc:jtds:sqlserver://zc.database.windows.net:1433;databaseName=tienda_virtual";
+    private static String driverName = "net.sourceforge.jtds.jdbc.Driver";
+            //"com.microsoft.sqlserver.jdbc.SQLServerDriver";
+            // com.microsoft.sqlserver.jdbc.SQLServerDriver
+            //com.mysql.jdbc.Driver
+
+    //String url = String.format("jdbc:jtds:sqlserver://zc.database.windows.net:1433/tienda_virtual;user=***;password=***;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;");
+
     private static String username = "zckeeper";
     private static String password = "SecurityBad21";
     private static Connection con=null;

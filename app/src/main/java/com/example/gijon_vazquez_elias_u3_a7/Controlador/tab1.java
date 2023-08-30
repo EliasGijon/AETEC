@@ -83,14 +83,6 @@ public class tab1 extends Fragment {
         String[]  a= res.getStringArray(R.array.opciones);
         TypedArray imgs = res.obtainTypedArray(R.array.img);
 
-        // get resource ID by index, use 0 as default to set null resource imgs.getResourceId(i, 0);
-
-
-        // or set you ImageView's resource to the id mImgView1.setImageResource(imgs.getResourceId(i, 0));
-
-
-        // recycle the array   imgs.recycle();
-
         ImageView img[] = new ImageView[a.length];
         TextView textViews[] = new TextView[a.length];
 
@@ -104,17 +96,6 @@ public class tab1 extends Fragment {
                 TypedValue.COMPLEX_UNIT_DIP, 50, getResources()
                         .getDisplayMetrics());
         for(int i=1;i<a.length;i++){
-            /*
-            *   android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@id/Etiqueta"
-                android:layout_marginLeft="42dp"
-                android:layout_marginTop="7dp"
-                android:layout_marginEnd="7dp"
-                android:layout_marginRight="42dp"
-                android:layout_marginBottom="15dp"
-                android:scaleType=
-            **/
             ImageView as= new ImageView(getActivity());
             RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
                     RelativeLayout.LayoutParams.MATCH_PARENT,
@@ -124,20 +105,7 @@ public class tab1 extends Fragment {
                     RelativeLayout.LayoutParams.MATCH_PARENT,
                     RelativeLayout.LayoutParams.MATCH_PARENT
             );
-/*
-            * android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_below="@id/imageView"
-                    android:layout_marginLeft="42dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_marginEnd="15dp"
-                    android:layout_marginRight="42dp"
-                    android:layout_marginBottom="15dp"
-                    android:fontFamily="@font/montserrat"
-                    android:gravity="center"
-                    android:textColor="@color/TECNM_NEGRO"
-                    android:textSize="20sp"
-            * */
+
             TextView tv = new TextView(getActivity());
             tv.setTextAppearance(R.font.montserrat);
             tv.setTextSize(20);
@@ -149,11 +117,8 @@ public class tab1 extends Fragment {
 
             as.setAdjustViewBounds(true);
             as.setImageResource(imgs.getResourceId(i-1,0));
-            //imgs.recycle();
             as.setScaleType(ImageView.ScaleType.FIT_XY);
-            /*Bitmap resized = Bitmap.createScaledBitmap(, 411, 233, true);
-            as.setImageBitmap(resized);
-*/
+
             as.setId(i);
             as.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -163,10 +128,6 @@ public class tab1 extends Fragment {
                     Variables.putString("queryxd",actividad);
                     siguiente.putExtras(Variables);
                     startActivity(siguiente);
-                   /* FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                    tab3 subint =new tab3();
-                    fragmentTransaction.add(R.id.viewpager, subint);
-                    fragmentTransaction.replace(getParentFragmentManager(),tab1,subint);*/
                 }
             });
 

@@ -7,8 +7,18 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.RelativeLayout;
+import android.widget.ScrollView;
+import android.widget.TextView;
 
+import com.example.gijon_vazquez_elias_u3_a7.Conexion;
 import com.example.gijon_vazquez_elias_u3_a7.R;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -26,6 +36,7 @@ public class tab3 extends Fragment {
     private String mParam1;
     private String mParam2;
 
+    RelativeLayout Panel;
     public tab3() {
         // Required empty public constructor
     }
@@ -63,6 +74,41 @@ public class tab3 extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_tab3, container, false);
 
+        Button myButton = new Button(getActivity());
+        myButton.setText("Click Me");
+
+        // Set click listener for the button
+        myButton.setOnClickListener(new View.OnClickListener() {
+            // Button click logic here
+            @Override
+            public void onClick(View v) {
+                try {
+
+                    Connection connection = Conexion.getConnection();
+
+                    // Consulta SQL
+                    String sql = "select * from productos_proveedor";
+
+                    // Preparar la declaración SQL con parámetros
+                    PreparedStatement statement = connection.prepareStatement(sql);
+
+                    // Ejecutar la consulta
+                    ResultSet resultSet = statement.executeQuery();
+
+                    while (resultSet.next()) {
+                        TextView tv = new TextView(getActivity());
+                        tv.setText(resultSet.getString(0));
+                        Panel.addView(tv);
+                        System.out.println(resultSet.getString(0));
+                    }
+                }catch (Exception e){
+                    System.out.printf("error consulta");
+                }
+            }
+        });
+
+        Panel = view.findViewById(R.id.sc);
+        Panel.addView(myButton);
         return view;
     }
 }

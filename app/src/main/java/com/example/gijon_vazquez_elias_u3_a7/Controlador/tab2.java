@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import com.example.gijon_vazquez_elias_u3_a7.MainActivity;
 import com.example.gijon_vazquez_elias_u3_a7.R;
+import com.example.gijon_vazquez_elias_u3_a7.envioCorreo;
 
 import java.util.regex.Pattern;
 
@@ -143,7 +144,8 @@ public class tab2 extends Fragment {
                     Toast toast = Toast.makeText(getActivity(), "Correo Enviado Correctamente", Toast.LENGTH_SHORT);
                     toast.show();
 
-                    ((MainActivity) getActivity()).EnviarFormulario(SMS);
+                    envioCorreo.EnviarFormulario(SMS);
+                    //((MainActivity) getActivity()).EnviarFormulario(SMS);
                 }
             }
         });
